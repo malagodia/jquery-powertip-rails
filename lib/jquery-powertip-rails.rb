@@ -1,4 +1,5 @@
 require "jquery-powertip-rails/version"
+require "jquery-powertip-rails/engine"
 
 module Jquery
   module Powertip
