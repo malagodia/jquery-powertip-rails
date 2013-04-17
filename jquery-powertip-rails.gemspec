@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["daniellibanori@gmail.com"]
   gem.description   = %q{jQuery Powertip for Rails 3.1 series}
   gem.summary       = %q{jQuery Powertip for Rails 3.1 series}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/dlibanori/jquery-powertip-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
