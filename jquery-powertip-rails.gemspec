@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Jquery::Powertip::Rails::VERSION
   gem.authors       = ["Daniel Libanori"]
   gem.email         = ["daniellibanori@gmail.com"]
-  gem.description   = %q{jQuery Powertip for Rails 3.1 series}
-  gem.summary       = %q{jQuery Powertip for Rails 3.1 series}
+  gem.description   = %q{jQuery Powertip for Rails 4.0.2 series}
+  gem.summary       = %q{jQuery Powertip for Rails 4.0.2 series}
   gem.homepage      = "https://github.com/dlibanori/jquery-powertip-rails"
 
   gem.files         = `git ls-files`.split($/)
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", "~> 4.0.2"
 end
